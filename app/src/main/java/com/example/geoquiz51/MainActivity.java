@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         builder.setIcon(android.R.drawable.ic_dialog_alert);
 
         builder.setPositiveButton("OK", (dialog, which) -> {
-            textViewMessage.setText("Has Pulsado ok";
+            textViewMessage.setText("Has Pulsado OK");
         });
 
         builder.setNegativeButton("CANCEL", (dialog, which) -> {
